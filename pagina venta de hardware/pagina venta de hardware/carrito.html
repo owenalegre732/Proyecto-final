@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beltran Hardware Carrito</title>
+    <link rel="stylesheet" href="CSS/estilosForm.css"> 
+</head>
+<body>
+   
+    <form action="">
+    
+        <h2>Componentes</h2>
+     <div class="campoFormulario">
+       <label>procesadores</label> 
+       <img src="imagenes/procesador/Intel1.png" width="40" height="40" >
+      <select name="procesador" id="proce">
+        <option value="266327">Amd Ryzen 7 5700</option>
+        <option value="129990">Intel Core i7-3770</option>
+      </select>
+     </div>
+     <br>
+     <div class="campoFormulario">
+     <label>Tarjeta Grafica</label> 
+     <img src="imagenes/graficas/Asus1.png" width="40" height="40" >  
+     <select name="Graficas" id="grafica">
+        <option value="700767">Zotac Gaming Geforce Rtx 4060</option>
+        <option value="524997">Asus Dual Nvidia Geforce Rtx 3050</option>
+        <option value="815000"> Sapphire Pulse Rx 7600</option>
+     </select>
+     </div>
+     <br>
+     <div class="campoFormulario">
+     <label>Tarjeta Madre</label>
+     <img src="imagenes/mother/motherIntel1.png" width="40" height="40" >
+     <select name="tarjetasMadre" id="madre">
+        <option value="197879">Mother Msi B550m Pro</option>
+        <option value="84239">Mother Intel H81 Socket 1150</option>
+        <option value="87196">Motherboard Am4 Ryzen Asrock A520m</option>
+     </select>
+     </div>
+     <div class="campoFormulario">
+     <label>Memoria RAM</label>
+     <img src="imagenes/ram/patriot1.png" width="40" height="40" >
+     <select name="RAM" id="ram">
+        <option value="124791">Memoria Notebook Ddr4 8gb</option>
+        <option value="208250">Memoria Ram ValueTech Pc 16gb </option>
+        <option value="473629">Memoria RAM DDR4 32GB</option>
+     </select>
+     </div>
+     <br><br>
+
+     <input type="button" value="Calcular" id="calcular" onclick="calculoTotal()">
+     <br><br>
+     <a href="index.html">volver a la pagina principal </a>
+    </form>
+
+
+    <script src="Script/script.js"></script>
+</body>
+</html>

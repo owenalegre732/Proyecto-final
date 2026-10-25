@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componentes - Beltran Hardware</title>
+    <link rel="stylesheet" href="CSS/estilos.css" type="text/css">
+
+
+</head>
+<body>
+  
+    <header class="header">
+    
+        <nav class="navmenu">
+        <h1>BELTRAN HARDWARE</h1>
+        <ul class="menu">
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="INICIO DE SESION.html">INICIO DE SESION</a></li>
+
+            <li class="abrirSubmenu">
+                <a href="productos.html">PRODUCTOS</a>
+
+                <ul class="submenu">
+                    <li><a href="perifericos.html">PERIFERICOS</a></li>
+                    <li class="abrirSubSubmenu"><a href="" onclick=mismaPagina()>COMPONENTES</a>
+                       <ul class="subSubmenu">
+                        <li><a href="#graficas">TARJETAS GRAFICAS</a></li>
+                        <li><a href="#procesadores">PROCESADORES</a></li>
+                        <li><a href="#tarjetasMadre">TARJETAS MADRE</a></li>
+                        <li><a href="#RAM">RAM</a></li>
+                       </ul>
+                    </li>
+                </ul> 
+            </li>
+            
+            <li><a href="carrito.html">CARRITO</a></li>
+        
+        </ul>
+    
+    </nav>
+   
+</header>
+
+<main>
+
+     <section id="componentes" class="seccion">
+
+            <h2>COMPONENTES</h2>
+
+            <h3 id="graficas" class="titulos">TARJETAS GRAFICAS</h3>
+
+            <div class="productos">
+
+                <div class="producto">
+
+                    <div class="imagenes">
+
+                        <img id="imagenGraficaZotac"
+                             src="imagenes/graficas/Zotac1.png"
+                             alt="Grafica Zotac"
+                             width="350"
+                             height="350">
+                    
+                        <div class="miniaturas">
+
+                         <img src="imagenes/graficas/Zotac1.png"
+                         alt="Grafica Zotac"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenGraficaZotac('imagenes/graficas/Zotac1.png')">
+
+                        <img src="imagenes/graficas/Zotac2.png"
+                         alt="Grafica Zotac"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenGraficaZotac('imagenes/graficas/Zotac2.png')">
+
+                        <img src="imagenes/graficas/Zotac3.png"
+                        alt="Grafica Zotac"
+                        width="70"
+                        height="70"
+                        onclick="cambiarImagenGraficaZotac('imagenes/graficas/Zotac3.png')">
+
+                        </div>
+                     </div>
+
+                        <h3 class="descripcion">Zotac Gaming Geforce Rtx 4060 Tarjeta Gráfica Compacta</h3>
+
+                        <p class="precio">$700.767</p>
+                    
+                 </div>
+            
+
+
+               <div class="producto">
+
+                    <div class="imagenes">
+
+                        <img id="imagenGraficaAsus"
+                             src="imagenes/graficas/Asus1.png"
+                             alt="Grafica Asus"
+                             width="350"
+                             height="350">
+                    
+                        <div class="miniaturas">
+
+                         <img src="imagenes/graficas/Asus1.png"
+                         alt="Grafica Asus"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenGraficaAsus('imagenes/graficas/Asus1.png')">
+
+                        <img src="imagenes/graficas/Asus2.png"
+                         alt="Grafica Asus"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenGraficaAsus('imagenes/graficas/Asus2.png')">
+
+                        <img src="imagenes/graficas/Asus3.png"
+                        alt="Grafica Asus"
+                        width="70"
+                        height="70"
+                        onclick="cambiarImagenGraficaAsus('imagenes/graficas/Asus3.png')">
+
+                        </div>
+                    </div>
+                        <h3 class="descripcion">Asus Dual Nvidia Geforce Rtx 3050 Edición Gddr6 Oc De 6 Gb</h3>
+                       
+                        <p class="precio">$524.997</p>
+                </div>
+               
+
+                <div class="producto">
+                    <div class="imagenes">
+
+                        <img id="imagenGraficaSapphire"
+                             src="imagenes/graficas/Sapphire1.png"
+                             alt="Grafica Sapphire"
+                             width="350"
+                             height="350">
+                        <div class="miniaturas">
+
+                         <img src="imagenes/graficas/Sapphire1.png"
+                         alt="Grafica Sapphire"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenGraficaSapphire('imagenes/graficas/Sapphire1.png')">
+
+                        <img src="imagenes/graficas/Sapphire2.png"
+                         alt="Grafica Sapphire"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenGraficaSapphire('imagenes/graficas/Sapphire2.png')">
+
+                        <img src="imagenes/graficas/Sapphire3.png"
+                        alt="Grafica Sapphire"
+                        width="70"
+                        height="70"
+                        onclick="cambiarImagenGraficaSapphire('imagenes/graficas/Sapphire3.png')">
+
+                        </div>
+                    </div>
+                        <h3 class="descripcion">Placa De Video Sapphire Pulse Rx 7600 Oc 8gb Gddr6 Radeon Pc</h3>
+
+                        <p class="precio">$815.000</p>
+
+                    </div>
+                   
+               </div>
+
+
+            
+
+            <h3 id="procesadores" class="titulos">PROCESADORES</h3>
+
+            <div class="productos">
+
+                <div class="producto">
+
+                    <div class="imagenes">
+
+                        <img id="imagenProceRyzen"
+                             src="imagenes/procesador/Ryzen1.png"
+                             alt="Procesador Ryzen"
+                             width="350"
+                             height="350">
+                    
+                        <div class="miniaturas">
+
+                         <img src="imagenes/procesador/Ryzen1.png"
+                         alt="Procesador Ryzen"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenProceRyzen('imagenes/procesador/Ryzen1.png')">
+
+                        <img src="imagenes/procesador/Ryzen2.png"
+                         alt="Procesador Ryzen"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenProceRyzen('imagenes/procesador/Ryzen2.png')">
+
+                        <img src="imagenes/procesador/Ryzen3.png"
+                        alt="Procesador Ryzen"
+                        width="70"
+                        height="70"
+                        onclick="cambiarImagenProceRyzen('imagenes/procesador/Ryzen3.png')">
+
+                        </div>
+                    </div>
+                        <h3 class="descripcion">Procesador Amd Ryzen 7 5700 Cache De 16 Mb unloked, Am4 De 4,6 ghz max boost</h3>
+                      
+                        <p class="precio">$266.327</p>
+
+               </div>
+            
+
+                <div class="producto">
+
+                   <div class="imagenes">
+                        <img id="imagenProceIntel"
+                             src="imagenes/procesador/Intel1.png"
+                             alt="Procesador Intel"
+                             width="350"
+                             height="350">
+                        <div class="miniaturas">
+                         <img src="imagenes/procesador/Intel1.png"
+                         alt="Procesador Intel"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenProceIntel('imagenes/procesador/Intel1.png')">
+                        <img src="imagenes/procesador/Intel2.png"
+                         alt="Procesador Intel"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenProceIntel('imagenes/procesador/Intel2.png')">
+                        <img src="imagenes/procesador/Intel3.png"
+                        alt="Procesador Intel"
+                        width="70"
+                        height="70"
+                        onclick="cambiarImagenProceIntel('imagenes/procesador/Intel3.png')">
+                        </div>
+                      </div>
+                        <h3 class="descripcion">Procesador Intel® Core i7-3770 de 3,40 Ghz para equipos de sobremesa</h3>
+
+                        <p class="precio">$129.990</p>
+
+                    </div>
+               </div>
+            
+            <h3 id="tarjetasMadre" class="titulos">TARJETAS MADRE</h3>
+            
+            <div class="productos">
+                <div class="producto">
+                     <div class="imagenes">
+                        <img id="imagenMotherMsi"
+                             src="imagenes/mother/motherMsi1.png"
+                             alt="Tarjeta Madre Msi"
+                             width="350"
+                             height="350">
+                        <div class="miniaturas">
+                         <img src="imagenes/mother/motherMsi1.png"
+                         alt="Tarjeta Madre Msi"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenMotherMsi('imagenes/mother/motherMsi1.png')">
+                        <img src="imagenes/mother/motherMsi2.png"
+                         alt="Tarjeta Madre MSI"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenMotherMsi('imagenes/mother/motherMsi2.png')">
+                        <img src="imagenes/mother/motherMsi3.png"
+                        alt="Tarjeta Madre Msi"
+                        width="70"
+                        height="70"
+                        onclick="cambiarImagenMotherMsi('imagenes/mother/motherMsi3.png')">
+                        </div>
+
+                     </div>
+     
+                       <h3 class="descripcion">Mother Msi B550m Pro-vdh Wifi Ddr4 Am4</h3>
+                    
+                       <p class="precio">$197.879</p>           
+                    </div>
+                <div class="producto">
+
+                  <div class="imagenes">
+                        <img id="imagenMotherIntel"
+                             src="imagenes/mother/motherIntel1.png"
+                             alt="Tarjeta Madre Intel"
+                             width="350"
+                             height="350">
+                        <div class="miniaturas">
+
+                         <img src="imagenes/mother/motherIntel1.png"
+                         alt="Tarjeta Madre Intel"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenmotherIntel('imagenes/mother/motherIntel1.png')">
+                        <img src="imagenes/mother/motherIntel2.png"
+                         alt="Tarjeta Madre Intel"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenmotherIntel('imagenes/mother/motherIntel2.png')">
+                        <img src="imagenes/mother/motherIntel3.png"
+                        alt="Tarjeta Madre Intel"
+                        width="70"
+                        height="70"
+                        onclick="cambiarImagenmotherIntel('imagenes/mother/motherIntel3.png')">
+                        </div>
+
+                       </div>
+
+                        <h3 class="descripcion">Mother Intel H81 Socket 1150 Ddr3 Hdmi 6-usb M2 Nvme Oasis Negro</h3>
+                    
+                       <p class="precio">$84.239</p>
+                    </div>
+                  <div class="producto">
+                   <div class="imagenes">
+                        <img id="imagenMotherRyzen"
+                             src="imagenes/mother/motherRyzen1.png"
+                             alt="Tarjeta Madre Ryzen"
+                             width="350"
+                             height="350">
+                        <div class="miniaturas">
+                         <img src="imagenes/mother/motherRyzen1.png"
+                         alt="Tarjeta Madre Ryzen"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenmotherRyzen('imagenes/mother/motherRyzen1.png')">
+                        <img src="imagenes/mother/motherRyzen2.png"
+                         alt="Tarjeta Madre Ryzen"
+                         width="70"
+                         height="70"
+                         onclick="cambiarImagenmotherRyzen('imagenes/mother/motherRyzen2.png')">
+                        <img src="imagenes/mother/motherRyzen3.png"
+                        alt="Tarjeta Madre Ryzen"
+                        width="70"
+                        height="70"
+                        onclick="cambiarImagenmotherRyzen('imagenes/mother/motherRyzen3.png')">
+                        </div>
+                    </div>
+            
+                        <h3 class="descripcion">Motherboard Am4 Ryzen Asrock A520m Ddr4 Hdmi Micro Atx Amd Negro</h3>
+                    
+                       <p class="precio">$87.196</p>
+                    </div>
+            </div>
+            
+            <h3 id="RAM" class="titulos">MEMORIAS RAM</h3>
+         
+            <div class="productos">
+                <div class="producto">
+
+                    <div class="imagenes">
+
+                        <img id="imagenRam"
+                             src="imagenes/ram/ram1.png"
+                             alt="Ram"
+                             width="350"
+                             height="350">
+                        <div class="miniaturas">
+                            <img src="imagenes/ram/ram1.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenRam('imagenes/ram/ram1.png')">
+                            <img src="imagenes/ram/ram2.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenRam('imagenes/ram/ram2.png')">
+                            <img src="imagenes/ram/ram3.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenRam('imagenes/ram/ram3.png')">
+                        </div>
+                    </div>
+                    
+                    <h3 class="descripcion">Memoria Notebook Ddr4 8gb 3200mhz Hiksemi Hiker Sodimm</h3>
+                    
+                    <p class="precio">$124.791</p>
+
+                </div>
+                
+                <div class="producto">
+
+                    <div class="imagenes">
+
+                        <img id="imagenValueTech"
+                             src="imagenes/ram/valuetech1.png"
+                             alt="Ram"
+                             width="350"
+                             height="350">
+                        <div class="miniaturas">
+                            <img src="imagenes/ram/valuetech1.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenValueTech('imagenes/ram/valuetech1.png')">
+                            <img src="imagenes/ram/valuetech2.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenValueTech('imagenes/ram/valuetech2.png')">
+                            <img src="imagenes/ram/valuetech3.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenValueTech('imagenes/ram/valuetech3.png')">
+                        </div>
+                    </div>
+                    
+                    <h3 class="descripcion">Memoria Ram ValueTech Pc 16gb 3200mhz Ddr4 Udimm 1.2v</h3>
+
+                    <p class="precio">$208.250</p>
+
+                </div>
+                <div class="producto">
+                    <div class="imagenes">
+                        <img id="imagenPatriot"
+                             src="imagenes/ram/patriot1.png"
+                             alt="Ram"
+                             width="350"
+                             height="350">
+                        <div class="miniaturas">
+                            <img src="imagenes/ram/patriot1.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenPatriot('imagenes/ram/patriot1.png')">
+                            <img src="imagenes/ram/patriot2.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenPatriot('imagenes/ram/patriot2.png')">
+                            <img src="imagenes/ram/patriot3.png"
+                                 alt="Ram"
+                                 width="70"
+                                 height="70"
+                                 onclick="cambiarImagenPatriot('imagenes/ram/patriot3.png')">
+                        </div>
+                    </div>
+                    <h3 class="descripcion">Memoria RAM DDR4 32GB 3200MHz Patriot Signature UDIMM para PC</h3>
+                    <p class="precio">$473.629</p>
+                </div>
+            </div>
+    </section>
+</main>
+
+<script src="Script/script.js"></script>
+
+</body>
+</html>
+
+
+

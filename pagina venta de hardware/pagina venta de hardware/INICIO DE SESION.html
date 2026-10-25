@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de inicio de sesion</title>
+    <link rel="stylesheet" href="CSS/estilosForm.css"> 
+</head>
+<body>
+    
+    <form action="" method="post">
+        <fieldset>
+            <legend>Inicio de sesion</legend>
+         <label for="name">Nombre: </label>
+        <input type="text" name="Nombre" id="name">
+        <br>
+        <label for="surname">Apellidos: </label>
+        <input type="text" name="apellidos" id="surname">
+        <br>
+        <label for="sexo">Sexo:</label>
+        <input type="radio" name="Sexo" id="hombre" value="hombre">
+        <label for="hombre">Hombre</label>
+        <input type="radio" name="Sexo" id="mujer" value="mujer">
+        <label for="mujer">Mujer</label>
+        <br>
+        <label for="email">Email: </label>
+        <input type="text" name="Email" id="email">
+        <br>
+        <input type="checkbox" name="info" id="informacion">
+        <label for="informacion">Deseo recibir informacion sobre novedades y ofertas.</label>
+        <br>
+        <label for="password">Contraseña: </label>
+        <input type="password" name="contraseña" id="password">
+        <br>
+        <label for="reppassword">Repita su contraseña: </label>
+        <input type="password" name="repcontraseña" id="reppassword">
+         <br>
+        <label for="pais">Pais de procedencia</label>
+        <select name="Paises" id="pais">
+            <option value="argentina" selected>Argentina</option>
+            <option value="chile">Chile</option>
+            <option value="brasil">Brasil</option>
+            <option value="uruguay">Uruguay</option>
+            <option value="paraguay">Paraguay</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="peru">Perú</option>
+            <option value="colombia">Colombia</option>
+            <option value="ecuador">Ecuador</option>
+            <option value="venezuela">Venezuela</option>
+        </select>
+        <br>
+            <label for="provincia">Provincia: </label>
+            <input type="text" name="Provincia" id="provincia">
+            <br>
+            <label for="localidad">Localidad</label>
+            <input type="text" name="Localidad" id="localidad">
+            <br>
+            <label for="direccion">Direccion</label>
+            <input type="text" name="Direccion" id="direccion">
+
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <br>
+        <br>
+        <a href="index.html">volver a la pagina pricipal</a>
+
+
+
+    </form>
+    <script src="Script/script.js"></script>
+
+</body>
+</html>
